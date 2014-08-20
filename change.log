@@ -26,3 +26,5 @@ $ git reflog 查看hard指针的走向路线 可以让你回到任意的地方
 
 $ git checkout -- ceshi.txt 把工作区ceshi.txt的内容撤销到最新的版本
 $ git reset HEAD ceshi.txt 把暂缓区里面的文件撤销掉
+
+$ cat ceshi.txt 查看ceshi.txt里面的内容
