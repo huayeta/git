@@ -23,3 +23,6 @@ $ git reset --hard HEAD~1 这个1代表回到上一个版本号 可以是1到任
 $ git reset --hard "54541" 这个数字式版本ID的前几位 不一定写全可以模糊查找的 hard指针其实就是在历史版本里面的指针
 
 $ git reflog 查看hard指针的走向路线 可以让你回到任意的地方
+
+$ git checkout -- ceshi.txt 把工作区ceshi.txt的内容撤销到最新的版本
+$ git reset HEAD ceshi.txt 把暂缓区里面的文件撤销掉
