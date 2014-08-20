@@ -1,0 +1,25 @@
+http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+
+$ git config --global user.name "huayeta"
+$ git config --global user.email "847457846@qq.com"
+
+$ mkdir learn 建立learn目录
+$ cd learn 进入learn目录
+$ pwd 查看当前目录
+$ git init 把当前目录建立成仓库
+
+$ git add ceshi.txt 添加ceshi.txt文件到仓库
+$ git commit -m "第一次提交" 提交add添加到仓库的文件到版本库 -m 后面是说明
+
+$ git status 查看仓库当前的状态看看有哪些变动
+$ git diff ceshi.txt 查看修改的文件的内容
+
+$ git log 查看修改的日志
+
+$ git log --pretty=oneline 查看修改的日志 弄成一行显示 只显示版本号
+
+$ git reset --hard HEAD~1 这个1代表回到上一个版本号 可以是1到任意数
+
+$ git reset --hard "54541" 这个数字式版本ID的前几位 不一定写全可以模糊查找的 hard指针其实就是在历史版本里面的指针
+
+$ git reflog 查看hard指针的走向路线 可以让你回到任意的地方
