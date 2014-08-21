@@ -36,3 +36,5 @@ $ ssh-keygen -t rsa -C "847457846@qq.com" 在本地建立一个秘钥 然后找�
 
 $ git remote add origin https://github.com/huayeta/huayeta.git 关联远程的一个git仓库
 $ git push -u origin master 第一次推送origin分支里面的内容
+$ git push origin master 再次推送
+$ git clone git@github.com:huayeta/huayeta.git 远程克隆一个git库
