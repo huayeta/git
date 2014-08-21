@@ -31,3 +31,8 @@ $ cat ceshi.txt 查看ceshi.txt里面的内容
 
 $ rm ceshi.txt 删除一个文件在本地
 $ git rm ceshi.txt 删除git库里面的一个文件
+
+$ ssh-keygen -t rsa -C "847457846@qq.com" 在本地建立一个秘钥 然后找到公钥添加到github上面
+
+$ git remote add origin https://github.com/huayeta/huayeta.git 关联远程的一个git仓库
+$ git push -u origin master 第一次推送origin分支里面的内容
