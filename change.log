@@ -28,3 +28,6 @@ $ git checkout -- ceshi.txt 把工作区ceshi.txt的内容撤销到最新的版�
 $ git reset HEAD ceshi.txt 把暂缓区里面的文件撤销掉
 
 $ cat ceshi.txt 查看ceshi.txt里面的内容
+
+$ rm ceshi.txt 删除一个文件在本地
+$ git rm ceshi.txt 删除git库里面的一个文件
