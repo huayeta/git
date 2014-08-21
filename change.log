@@ -38,3 +38,9 @@ $ git remote add origin https://github.com/huayeta/huayeta.git 关联远程的�
 $ git push -u origin master 第一次推送origin分支里面的内容
 $ git push origin master 再次推送
 $ git clone git@github.com:huayeta/huayeta.git 远程克隆一个git库
+
+$ git branch dev 创建dev分支
+$ git checkout dev 切换到dev分支
+$ git checkout -b dev 创建并切换到dev分支
+
+$ git branch 查看分支情况，当前分支前面有*标志
