@@ -44,3 +44,12 @@ $ git checkout dev 切换到dev分支
 $ git checkout -b dev 创建并切换到dev分支
 
 $ git branch 查看分支情况，当前分支前面有*标志
+
+$ git merge dev 合并dev分支的内容到当前分支上
+$ git merge --no-ff -m "merge with no-ff" dev 强制禁用“Fast forward”模式，Git就会在merge时生成一个新的commit，这样，从分支历史上就可以看出分支信息。
+
+$ git branch -d dev 删除分支dev
+
+$ git stash 保存现场
+$ git stash list 现场列表
+$ git stash pop 恢复现场并删除保存的现场
