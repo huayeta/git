@@ -9,6 +9,7 @@ $ pwd 查看当前目录
 $ git init 把当前目录建立成仓库
 
 $ git add ceshi.txt 添加ceshi.txt暂存区
+添加所有的话直接 $ git add .
 $ git commit -m "第一次提交" 把add添加到暂存区的文件提交到当前分支 -m 后面是说明
 
 $ git status 查看仓库当前的状态看看有哪些变动
