@@ -12,6 +12,8 @@ $ git add ceshi.txt 添加ceshi.txt暂存区
 添加所有的话直接 $ git add .
 $ git commit -m "第一次提交" 把add添加到暂存区的文件提交到当前分支 -m 后面是说明
 
+$ git rm public -r -f 删除public文件夹和它下面的文件
+
 $ git status 查看仓库当前的状态看看有哪些变动
 $ git diff ceshi.txt 查看修改的文件的内容
 
